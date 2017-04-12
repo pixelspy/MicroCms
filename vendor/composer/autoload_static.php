@@ -11,10 +11,6 @@ class ComposerStaticInit0a82673666d6ded924495cd68a201003
     );
 
     public static $prefixLengthsPsr4 = array (
-        'm' => 
-        array (
-            'microCms\\' => 9,
-        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
@@ -23,11 +19,17 @@ class ComposerStaticInit0a82673666d6ded924495cd68a201003
             'Symfony\\Component\\HttpFoundation\\' => 33,
             'Symfony\\Component\\EventDispatcher\\' => 34,
             'Symfony\\Component\\Debug\\' => 24,
+            'Symfony\\Component\\Asset\\' => 24,
+            'Symfony\\Bridge\\Twig\\' => 20,
             'Silex\\' => 6,
         ),
         'P' => 
         array (
             'Psr\\Log\\' => 8,
+        ),
+        'M' => 
+        array (
+            'MicroCms\\' => 9,
         ),
         'D' => 
         array (
@@ -38,10 +40,6 @@ class ComposerStaticInit0a82673666d6ded924495cd68a201003
     );
 
     public static $prefixDirsPsr4 = array (
-        'microCms\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
@@ -66,6 +64,14 @@ class ComposerStaticInit0a82673666d6ded924495cd68a201003
         array (
             0 => __DIR__ . '/..' . '/symfony/debug',
         ),
+        'Symfony\\Component\\Asset\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/asset',
+        ),
+        'Symfony\\Bridge\\Twig\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/twig-bridge',
+        ),
         'Silex\\' => 
         array (
             0 => __DIR__ . '/..' . '/silex/silex/src/Silex',
@@ -73,6 +79,10 @@ class ComposerStaticInit0a82673666d6ded924495cd68a201003
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'MicroCms\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'Doctrine\\Common\\Cache\\' => 
         array (
@@ -89,6 +99,13 @@ class ComposerStaticInit0a82673666d6ded924495cd68a201003
     );
 
     public static $prefixesPsr0 = array (
+        'T' => 
+        array (
+            'Twig_' => 
+            array (
+                0 => __DIR__ . '/..' . '/twig/twig/lib',
+            ),
+        ),
         'P' => 
         array (
             'Pimple' => 

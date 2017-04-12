@@ -3,7 +3,7 @@
 namespace microCms\DAO;
 
 use Doctrine\DBAL\Connection;
-use microCms\domain\Article;
+use MicroCms\domain\Article;
 
 class ArticleDAO
 {
